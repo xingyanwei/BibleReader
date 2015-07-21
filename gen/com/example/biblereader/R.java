@@ -8,7 +8,27 @@
 package com.example.biblereader;
 
 public final class R {
+    public static final class anim {
+        public static final int down=0x7f040000;
+        public static final int hide=0x7f040001;
+        public static final int show=0x7f040002;
+        public static final int transcation_left_in=0x7f040003;
+        public static final int transcation_left_out=0x7f040004;
+        public static final int transcation_right_in=0x7f040005;
+        public static final int transcation_right_out=0x7f040006;
+        public static final int up=0x7f040007;
+    }
     public static final class attr {
+        /** 子控件1的id
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int child1=0x7f010000;
+        /** 子控件2的id
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int child2=0x7f010001;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -18,25 +38,94 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int guid7=0x7f020000;
+        public static final int guide1=0x7f020001;
+        public static final int guide10=0x7f020002;
+        public static final int guide11=0x7f020003;
+        public static final int guide12=0x7f020004;
+        public static final int guide13=0x7f020005;
+        public static final int guide14=0x7f020006;
+        public static final int guide15=0x7f020007;
+        public static final int guide17=0x7f020008;
+        public static final int guide18=0x7f020009;
+        public static final int guide19=0x7f02000a;
+        public static final int guide2=0x7f02000b;
+        public static final int guide20=0x7f02000c;
+        public static final int guide21=0x7f02000d;
+        public static final int guide22=0x7f02000e;
+        public static final int guide23=0x7f02000f;
+        public static final int guide24=0x7f020010;
+        public static final int guide3=0x7f020011;
+        public static final int guide4=0x7f020012;
+        public static final int guide5=0x7f020013;
+        public static final int guide6=0x7f020014;
+        public static final int guide8=0x7f020015;
+        public static final int guide9=0x7f020016;
+        public static final int ic_launcher=0x7f020017;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f09002e;
+        public static final int guid7=0x7f090004;
+        public static final int guide1=0x7f090001;
+        public static final int guide10=0x7f09000c;
+        public static final int guide11=0x7f090011;
+        public static final int guide12=0x7f090010;
+        public static final int guide13=0x7f090015;
+        public static final int guide14=0x7f090014;
+        public static final int guide15=0x7f090006;
+        public static final int guide151=0x7f09000a;
+        public static final int guide152=0x7f09000e;
+        public static final int guide153=0x7f090012;
+        public static final int guide154=0x7f090016;
+        public static final int guide155=0x7f09001b;
+        public static final int guide156=0x7f09001e;
+        public static final int guide157=0x7f090021;
+        public static final int guide158=0x7f090024;
+        public static final int guide159=0x7f090027;
+        public static final int guide160=0x7f09002a;
+        public static final int guide18=0x7f09001a;
+        public static final int guide19=0x7f09001d;
+        public static final int guide20=0x7f090020;
+        public static final int guide21=0x7f090023;
+        public static final int guide22=0x7f090026;
+        public static final int guide23=0x7f090029;
+        public static final int guide3=0x7f090002;
+        public static final int guide4=0x7f090017;
+        public static final int guide5=0x7f090005;
+        public static final int guide6=0x7f090008;
+        public static final int guide8=0x7f090009;
+        public static final int guide9=0x7f09000d;
+        public static final int line2_view=0x7f09002b;
+        public static final int move_guide_view1=0x7f09002d;
+        public static final int part10_view=0x7f090022;
+        public static final int part11_view=0x7f090025;
+        public static final int part12_view=0x7f090028;
+        public static final int part13_view=0x7f09002c;
+        public static final int part1_view=0x7f090003;
+        public static final int part2_view=0x7f090007;
+        public static final int part3_view=0x7f09000b;
+        public static final int part4_view=0x7f09000f;
+        public static final int part5_view=0x7f090013;
+        public static final int part6_view=0x7f090018;
+        public static final int part7_view=0x7f090019;
+        public static final int part8_view=0x7f09001c;
+        public static final int part9_view=0x7f09001f;
+        public static final int scroll_view=0x7f090000;
     }
     public static final class layout {
         public static final int activity_welcome=0x7f030000;
     }
     public static final class menu {
-        public static final int welcome=0x7f070000;
+        public static final int welcome=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050002;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050001;
+        public static final int action_settings=0x7f060002;
+        public static final int app_name=0x7f060000;
+        public static final int hello_world=0x7f060001;
     }
     public static final class style {
         /** 
@@ -60,10 +149,51 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a ChildRelativeLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ChildRelativeLayout_child1 com.example.biblereader:child1}</code></td><td>子控件1的id</td></tr>
+           <tr><td><code>{@link #ChildRelativeLayout_child2 com.example.biblereader:child2}</code></td><td>子控件2的id</td></tr>
+           </table>
+           @see #ChildRelativeLayout_child1
+           @see #ChildRelativeLayout_child2
+         */
+        public static final int[] ChildRelativeLayout = {
+            0x7f010000, 0x7f010001
+        };
+        /**
+          <p>
+          @attr description
+          子控件1的id
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.example.biblereader:child1
+        */
+        public static final int ChildRelativeLayout_child1 = 0;
+        /**
+          <p>
+          @attr description
+          子控件2的id
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.example.biblereader:child2
+        */
+        public static final int ChildRelativeLayout_child2 = 1;
+    };
 }

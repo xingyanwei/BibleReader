@@ -1,39 +1,78 @@
 package com.example.biblereader;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import com.biblereader.view.Child1ImageView;
+import com.biblereader.view.Child1RelativeLayout;
+import com.biblereader.view.Child2ImageView;
+import com.biblereader.view.Child2RelativeLayout;
+import com.biblereader.view.CustomScrollView;
 
-public class WelcomeActivity extends Activity
+import android.annotation.TargetApi;
+import android.app.Activity;
+import android.os.Build;
+import android.os.Bundle;
+import android.view.ViewTreeObserver;
+
+public class WelcomeActivity extends Activity implements ViewTreeObserver.OnGlobalLayoutListener
 {
 
+    private CustomScrollView customScrollView;
+    public static int height;
+
+    /**
+     * Called when the activity is first created.
+     */
     @Override
-    protected void onCreate(Bundle savedInstanceState)
+    public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+
+        customScrollView = (CustomScrollView) findViewById(R.id.scroll_view);
+
+        Child1RelativeLayout part1View = (Child1RelativeLayout) findViewById(R.id.part1_view);
+        Child1RelativeLayout part2View = (Child1RelativeLayout) findViewById(R.id.part2_view);
+        Child1RelativeLayout part3View = (Child1RelativeLayout) findViewById(R.id.part3_view);
+        Child1RelativeLayout part4View = (Child1RelativeLayout) findViewById(R.id.part4_view);
+        Child1RelativeLayout part5View = (Child1RelativeLayout) findViewById(R.id.part5_view);
+
+        Child2RelativeLayout part7View = (Child2RelativeLayout) findViewById(R.id.part7_view);
+        Child2RelativeLayout part8View = (Child2RelativeLayout) findViewById(R.id.part8_view);
+        Child2RelativeLayout part9View = (Child2RelativeLayout) findViewById(R.id.part9_view);
+        Child2RelativeLayout part10View = (Child2RelativeLayout) findViewById(R.id.part10_view);
+        Child2RelativeLayout part11View = (Child2RelativeLayout) findViewById(R.id.part11_view);
+        Child2RelativeLayout part12View = (Child2RelativeLayout) findViewById(R.id.part12_view);
+
+        Child2ImageView childImageView6 = (Child2ImageView) findViewById(R.id.part6_view);
+        Child2ImageView childImageView13 = (Child2ImageView) findViewById(R.id.part13_view);
+
+        Child1ImageView child1ImageView = (Child1ImageView) findViewById(R.id.move_guide_view1);
+
+        customScrollView.addObserver(part1View);
+        customScrollView.addObserver(part2View);
+        customScrollView.addObserver(part3View);
+        customScrollView.addObserver(part4View);
+        customScrollView.addObserver(part5View);
+
+        customScrollView.addObserver(part7View);
+        customScrollView.addObserver(part8View);
+        customScrollView.addObserver(part9View);
+        customScrollView.addObserver(part10View);
+        customScrollView.addObserver(part11View);
+        customScrollView.addObserver(part12View);
+
+        customScrollView.addObserver(childImageView6);
+        customScrollView.addObserver(childImageView13);
+
+        customScrollView.addObserver(child1ImageView);
+
+        customScrollView.getViewTreeObserver().addOnGlobalLayoutListener(this);
+
     }
 
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     @Override
-    public boolean onCreateOptionsMenu(Menu menu)
+    public void onGlobalLayout()
     {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.welcome, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings)
-        {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+        height = customScrollView.getHeight();
     }
 }
