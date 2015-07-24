@@ -19,16 +19,69 @@ public final class R {
         public static final int up=0x7f040007;
     }
     public static final class attr {
-        /** 子控件1的id
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int child1=0x7f010000;
-        /** 子控件2的id
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static final int discrollve_alpha=0x7f010000;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int child2=0x7f010001;
+        public static final int discrollve_fromBgColor=0x7f010004;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int discrollve_scaleX=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int discrollve_scaleY=0x7f010002;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int discrollve_threshold=0x7f010003;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int discrollve_toBgColor=0x7f010005;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>fromTop</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fromBottom</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>fromLeft</code></td><td>0x04</td><td></td></tr>
+<tr><td><code>fromRight</code></td><td>0x08</td><td></td></tr>
+</table>
+         */
+        public static final int discrollve_translation=0x7f010006;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -38,106 +91,65 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
-        public static final int guid7=0x7f020000;
-        public static final int guide1=0x7f020001;
-        public static final int guide10=0x7f020002;
-        public static final int guide11=0x7f020003;
-        public static final int guide12=0x7f020004;
-        public static final int guide13=0x7f020005;
-        public static final int guide14=0x7f020006;
-        public static final int guide15=0x7f020007;
-        public static final int guide17=0x7f020008;
-        public static final int guide18=0x7f020009;
-        public static final int guide19=0x7f02000a;
-        public static final int guide2=0x7f02000b;
-        public static final int guide20=0x7f02000c;
-        public static final int guide21=0x7f02000d;
-        public static final int guide22=0x7f02000e;
-        public static final int guide23=0x7f02000f;
-        public static final int guide24=0x7f020010;
-        public static final int guide3=0x7f020011;
-        public static final int guide4=0x7f020012;
-        public static final int guide5=0x7f020013;
-        public static final int guide6=0x7f020014;
-        public static final int guide8=0x7f020015;
-        public static final int guide9=0x7f020016;
-        public static final int ic_launcher=0x7f020017;
+        public static final int cheese1=0x7f020000;
+        public static final int cheese2=0x7f020001;
+        public static final int cheese3=0x7f020002;
+        public static final int guid7=0x7f020003;
+        public static final int guide1=0x7f020004;
+        public static final int guide10=0x7f020005;
+        public static final int guide11=0x7f020006;
+        public static final int guide12=0x7f020007;
+        public static final int guide13=0x7f020008;
+        public static final int guide14=0x7f020009;
+        public static final int guide15=0x7f02000a;
+        public static final int guide17=0x7f02000b;
+        public static final int guide18=0x7f02000c;
+        public static final int guide19=0x7f02000d;
+        public static final int guide2=0x7f02000e;
+        public static final int guide20=0x7f02000f;
+        public static final int guide21=0x7f020010;
+        public static final int guide22=0x7f020011;
+        public static final int guide23=0x7f020012;
+        public static final int guide24=0x7f020013;
+        public static final int guide3=0x7f020014;
+        public static final int guide4=0x7f020015;
+        public static final int guide5=0x7f020016;
+        public static final int guide6=0x7f020017;
+        public static final int guide8=0x7f020018;
+        public static final int guide9=0x7f020019;
+        public static final int ic_launcher=0x7f02001a;
+        public static final int ilovecheese_cheese=0x7f02001b;
+        public static final int ilovecheese_heart=0x7f02001c;
+        public static final int ilovecheese_i=0x7f02001d;
     }
     public static final class id {
-        public static final int action_settings=0x7f09002e;
-        public static final int guid7=0x7f090004;
-        public static final int guide1=0x7f090001;
-        public static final int guide10=0x7f09000c;
-        public static final int guide11=0x7f090011;
-        public static final int guide12=0x7f090010;
-        public static final int guide13=0x7f090015;
-        public static final int guide14=0x7f090014;
-        public static final int guide15=0x7f090006;
-        public static final int guide151=0x7f09000a;
-        public static final int guide152=0x7f09000e;
-        public static final int guide153=0x7f090012;
-        public static final int guide154=0x7f090016;
-        public static final int guide155=0x7f09001b;
-        public static final int guide156=0x7f09001e;
-        public static final int guide157=0x7f090021;
-        public static final int guide158=0x7f090024;
-        public static final int guide159=0x7f090027;
-        public static final int guide160=0x7f09002a;
-        public static final int guide18=0x7f09001a;
-        public static final int guide19=0x7f09001d;
-        public static final int guide20=0x7f090020;
-        public static final int guide21=0x7f090023;
-        public static final int guide22=0x7f090026;
-        public static final int guide23=0x7f090029;
-        public static final int guide3=0x7f090002;
-        public static final int guide4=0x7f090017;
-        public static final int guide5=0x7f090005;
-        public static final int guide6=0x7f090008;
-        public static final int guide8=0x7f090009;
-        public static final int guide9=0x7f09000d;
-        public static final int line2_view=0x7f09002b;
-        public static final int move_guide_view1=0x7f09002d;
-        public static final int part10_view=0x7f090022;
-        public static final int part11_view=0x7f090025;
-        public static final int part12_view=0x7f090028;
-        public static final int part13_view=0x7f09002c;
-        public static final int part1_view=0x7f090003;
-        public static final int part2_view=0x7f090007;
-        public static final int part3_view=0x7f09000b;
-        public static final int part4_view=0x7f09000f;
-        public static final int part5_view=0x7f090013;
-        public static final int part6_view=0x7f090018;
-        public static final int part7_view=0x7f090019;
-        public static final int part8_view=0x7f09001c;
-        public static final int part9_view=0x7f09001f;
-        public static final int scroll_view=0x7f090000;
+        public static final int fromBottom=0x7f050001;
+        public static final int fromLeft=0x7f050002;
+        public static final int fromRight=0x7f050003;
+        public static final int fromTop=0x7f050000;
+        public static final int greenView1=0x7f050009;
+        public static final int lastView1=0x7f05000a;
+        public static final int lastView2=0x7f05000b;
+        public static final int lastView3=0x7f05000c;
+        public static final int pathView=0x7f050006;
+        public static final int purpleView1=0x7f050004;
+        public static final int purpleView2=0x7f050005;
+        public static final int redView1=0x7f050007;
+        public static final int redView2=0x7f050008;
     }
     public static final class layout {
-        public static final int activity_welcome=0x7f030000;
-    }
-    public static final class menu {
-        public static final int welcome=0x7f080000;
+        public static final int activity_main=0x7f030000;
+        public static final int simple=0x7f030001;
     }
     public static final class string {
-        public static final int action_settings=0x7f060002;
-        public static final int app_name=0x7f060000;
-        public static final int hello_world=0x7f060001;
+        public static final int app_name=0x7f070000;
     }
     public static final class style {
         /** 
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
@@ -149,51 +161,143 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
-        /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
+        public static final int AppBaseTheme=0x7f080001;
+        /**  Base application theme. 
+ Customize your theme here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080000;
     }
     public static final class styleable {
-        /** Attributes that can be used with a ChildRelativeLayout.
+        /** Attributes that can be used with a DiscrollView_LayoutParams.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ChildRelativeLayout_child1 com.example.biblereader:child1}</code></td><td>子控件1的id</td></tr>
-           <tr><td><code>{@link #ChildRelativeLayout_child2 com.example.biblereader:child2}</code></td><td>子控件2的id</td></tr>
+           <tr><td><code>{@link #DiscrollView_LayoutParams_discrollve_alpha com.example.biblereader:discrollve_alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscrollView_LayoutParams_discrollve_fromBgColor com.example.biblereader:discrollve_fromBgColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscrollView_LayoutParams_discrollve_scaleX com.example.biblereader:discrollve_scaleX}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscrollView_LayoutParams_discrollve_scaleY com.example.biblereader:discrollve_scaleY}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscrollView_LayoutParams_discrollve_threshold com.example.biblereader:discrollve_threshold}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscrollView_LayoutParams_discrollve_toBgColor com.example.biblereader:discrollve_toBgColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DiscrollView_LayoutParams_discrollve_translation com.example.biblereader:discrollve_translation}</code></td><td></td></tr>
            </table>
-           @see #ChildRelativeLayout_child1
-           @see #ChildRelativeLayout_child2
+           @see #DiscrollView_LayoutParams_discrollve_alpha
+           @see #DiscrollView_LayoutParams_discrollve_fromBgColor
+           @see #DiscrollView_LayoutParams_discrollve_scaleX
+           @see #DiscrollView_LayoutParams_discrollve_scaleY
+           @see #DiscrollView_LayoutParams_discrollve_threshold
+           @see #DiscrollView_LayoutParams_discrollve_toBgColor
+           @see #DiscrollView_LayoutParams_discrollve_translation
          */
-        public static final int[] ChildRelativeLayout = {
-            0x7f010000, 0x7f010001
+        public static final int[] DiscrollView_LayoutParams = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006
         };
         /**
-          <p>
-          @attr description
-          子控件1的id
+          <p>This symbol is the offset where the {@link com.example.biblereader.R.attr#discrollve_alpha}
+          attribute's value can be found in the {@link #DiscrollView_LayoutParams} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.biblereader:child1
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.biblereader:discrollve_alpha
         */
-        public static final int ChildRelativeLayout_child1 = 0;
+        public static final int DiscrollView_LayoutParams_discrollve_alpha = 0;
         /**
-          <p>
-          @attr description
-          子控件2的id
+          <p>This symbol is the offset where the {@link com.example.biblereader.R.attr#discrollve_fromBgColor}
+          attribute's value can be found in the {@link #DiscrollView_LayoutParams} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.biblereader:child2
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.biblereader:discrollve_fromBgColor
         */
-        public static final int ChildRelativeLayout_child2 = 1;
+        public static final int DiscrollView_LayoutParams_discrollve_fromBgColor = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.biblereader.R.attr#discrollve_scaleX}
+          attribute's value can be found in the {@link #DiscrollView_LayoutParams} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.biblereader:discrollve_scaleX
+        */
+        public static final int DiscrollView_LayoutParams_discrollve_scaleX = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.biblereader.R.attr#discrollve_scaleY}
+          attribute's value can be found in the {@link #DiscrollView_LayoutParams} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.biblereader:discrollve_scaleY
+        */
+        public static final int DiscrollView_LayoutParams_discrollve_scaleY = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.biblereader.R.attr#discrollve_threshold}
+          attribute's value can be found in the {@link #DiscrollView_LayoutParams} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.biblereader:discrollve_threshold
+        */
+        public static final int DiscrollView_LayoutParams_discrollve_threshold = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.biblereader.R.attr#discrollve_toBgColor}
+          attribute's value can be found in the {@link #DiscrollView_LayoutParams} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.biblereader:discrollve_toBgColor
+        */
+        public static final int DiscrollView_LayoutParams_discrollve_toBgColor = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.biblereader.R.attr#discrollve_translation}
+          attribute's value can be found in the {@link #DiscrollView_LayoutParams} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>fromTop</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fromBottom</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>fromLeft</code></td><td>0x04</td><td></td></tr>
+<tr><td><code>fromRight</code></td><td>0x08</td><td></td></tr>
+</table>
+          @attr name com.example.biblereader:discrollve_translation
+        */
+        public static final int DiscrollView_LayoutParams_discrollve_translation = 6;
     };
 }
