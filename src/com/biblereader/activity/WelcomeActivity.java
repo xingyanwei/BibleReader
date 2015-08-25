@@ -1,8 +1,9 @@
-package com.example.biblereader;
+package com.biblereader.activity;
 
 
 
 import com.biblereader.view.ParallaxContainer;
+import com.example.biblereader.R;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -49,13 +50,8 @@ public class WelcomeActivity extends Activity {
         rl_weibo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                try {
-                    Uri uri = Uri.parse("market://details?id=com.xingin.xhs");
-                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    startActivity(intent);
-                } catch (ActivityNotFoundException e) {
-                }
+            	Intent intent = new Intent(WelcomeActivity.this,MenuActivity.class);
+            	startActivity(intent);
             }
         });
     }
